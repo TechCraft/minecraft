@@ -209,7 +209,7 @@ public class Block
     public static final Block copperWire = (new BlockCopperWire(149, 164)).setHardness(0.0F).setStepSound(soundPowderFootstep).setBlockName("copperWire").disableStats().setRequiresSelfNotify();
     public static final Block oreTin = (new BlockOre(150, 172)).setHardness(6.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreTin").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block oreCopper = (new BlockOre(151, 173)).setHardness(6.5F).setStepSound(soundStoneFootStep).setResistance(5.0F).setBlockName("oreCopper").setCreativeTab(CreativeTabs.tabBlock);
-   
+    public static final Block oreSilver = (new BlockOre(152, 173)).setHardnes(7.0F).setStepSound(soundStoneFootStep).setResistance(5.0F).setBlockName("oreSilver").setCreativeTab(CreativeTabs.tabBlock);
    
     /**
      * The index of the texture to be displayed for this block. May vary based on graphics settings. Mostly seems to
