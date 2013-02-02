@@ -48,6 +48,9 @@ public class BiomeDecorator
     
     /** Field that holds Ruby WorldGenMinable */
     protected WorldGenerator rubyGen;
+    
+    /** Field that holds Tin WorldGenMinable */
+    protected WorldGenerator tinGen;
 
     /** Field that holds one of the plantYellow WorldGenFlowers */
     protected WorldGenerator plantYellowGen;
