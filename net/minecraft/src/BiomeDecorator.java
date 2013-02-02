@@ -51,7 +51,10 @@ public class BiomeDecorator
     
     /** Field that holds Tin WorldGenMinable */
     protected WorldGenerator tinGen;
-
+    
+    /** Field that hold Copper WorldGenMinable */
+    protected WorldGenerator copperGen;
+    
     /** Field that holds one of the plantYellow WorldGenFlowers */
     protected WorldGenerator plantYellowGen;
 
@@ -150,6 +153,7 @@ public class BiomeDecorator
         this.lapisGen = new WorldGenMinable(Block.oreLapis.blockID, 6);
         this.rubyGen = new WorldGenMinable(Block.oreRuby.blockID, 8);
         this.tinGen = new WorldGenMinable(Block.oreTin.blockID, 8);
+        this.copperGen = new WorldGenMinable(Block.oreTin.blockID, 8);
         this.plantYellowGen = new WorldGenFlowers(Block.plantYellow.blockID);
         this.plantRedGen = new WorldGenFlowers(Block.plantRed.blockID);
         this.mushroomBrownGen = new WorldGenFlowers(Block.mushroomBrown.blockID);
@@ -428,6 +432,7 @@ public class BiomeDecorator
         this.genStandardOre1(1, this.diamondGen, 0, 16);
         this.genStandardOre1(20, this.rubyGen, 0, 64);
         this.genStandardOre1(20, this.tinGen, 0, 64);
+        this.genStandardOre1(20, this.copperGen, 0, 64);
         this.genStandardOre2(1, this.lapisGen, 16, 16);
     }
 }
