@@ -54,9 +54,15 @@ public class BiomeDecorator
     
     /** Field that hold Copper WorldGenMinable */
     protected WorldGenerator copperGen;
-    
+ 
     /** Field that hold Silver WorldGenMinable */
     protected WorldGenerator silverGen;
+    
+    /** Field that hold Aluminium WorldGenMinable */
+    protected WorldGenerator aluminiumGen;
+    
+    /** Field that hold Titanium WorldGenMinable */
+    protected WorldGenerator titaniumGen;
     
     /** Field that holds one of the plantYellow WorldGenFlowers */
     protected WorldGenerator plantYellowGen;
@@ -157,7 +163,7 @@ public class BiomeDecorator
         this.rubyGen = new WorldGenMinable(Block.oreRuby.blockID, 8);
         this.tinGen = new WorldGenMinable(Block.oreTin.blockID, 8);
         this.copperGen = new WorldGenMinable(Block.oreTin.blockID, 8);
-        this.silverGen = new WorldGenMniable(Block.oreSilver.blockID, 8);
+        this.silverGen = new WorldGenMinable(Block.oreSilver.blockID, 8);
         this.plantYellowGen = new WorldGenFlowers(Block.plantYellow.blockID);
         this.plantRedGen = new WorldGenFlowers(Block.plantRed.blockID);
         this.mushroomBrownGen = new WorldGenFlowers(Block.mushroomBrown.blockID);
@@ -434,10 +440,12 @@ public class BiomeDecorator
         this.genStandardOre1(2, this.goldGen, 0, 32);
         this.genStandardOre1(8, this.redstoneGen, 0, 16);
         this.genStandardOre1(1, this.diamondGen, 0, 16);
-        this.genStandardOre1(20, this.rubyGen, 0, 64);
-        this.genStandardOre1(20, this.tinGen, 0, 64);
-        this.genStandardOre1(20, this.copperGen, 0, 64);
-        this.genStandardOre1(20, this.silverGen, 0, 64);
+        this.genStandardOre1(18, this.rubyGen, 0, 64);
+        this.genStandardOre1(15, this.tinGen, 0, 64);
+        this.genStandardOre1(13, this.copperGen, 0, 64);
+        this.genStandardOre1(14, this.silverGen, 0, 64);
+        this.genStandardOre1(18, this.aluminiumGen, 0, 64);
+        this.genStandardOre1(10, this.titaniumGen, 0, 64);
         this.genStandardOre2(1, this.lapisGen, 16, 16);
     }
 }
