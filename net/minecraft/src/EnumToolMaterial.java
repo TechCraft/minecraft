@@ -6,7 +6,7 @@ public enum EnumToolMaterial
     STONE(1, 131, 4.0F, 1, 5),
     IRON(2, 250, 6.0F, 2, 14),
     EMERALD(3, 1561, 8.0F, 3, 10),
-    GOLD(0, 32, 12.0F, 0, 22);
+    GOLD(0, 32, 12.0F, 2, 22);
 
     /**
      * The level of material this tool can harvest (3 = DIAMOND, 2 = IRON, 1 = STONE, 0 = IRON/GOLD)
