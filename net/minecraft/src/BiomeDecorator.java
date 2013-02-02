@@ -149,6 +149,7 @@ public class BiomeDecorator
         this.diamondGen = new WorldGenMinable(Block.oreDiamond.blockID, 7);
         this.lapisGen = new WorldGenMinable(Block.oreLapis.blockID, 6);
         this.rubyGen = new WorldGenMinable(Block.oreRuby.blockID, 8);
+        this.tinGen = new WorldGenMinable(Block.oreTin.blockID, 8);
         this.plantYellowGen = new WorldGenFlowers(Block.plantYellow.blockID);
         this.plantRedGen = new WorldGenFlowers(Block.plantRed.blockID);
         this.mushroomBrownGen = new WorldGenFlowers(Block.mushroomBrown.blockID);
@@ -426,6 +427,7 @@ public class BiomeDecorator
         this.genStandardOre1(8, this.redstoneGen, 0, 16);
         this.genStandardOre1(1, this.diamondGen, 0, 16);
         this.genStandardOre1(20, this.rubyGen, 0, 64);
+        this.genStandardOre1(20, this.tinGen, 0, 64);
         this.genStandardOre2(1, this.lapisGen, 16, 16);
     }
 }
