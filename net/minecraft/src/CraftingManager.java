@@ -124,6 +124,9 @@ public class CraftingManager
         this.addRecipe(new ItemStack(Item.bed, 1), new Object[] {"###", "XXX", '#', Block.cloth, 'X', Block.planks});
         this.addRecipe(new ItemStack(Block.enchantmentTable, 1), new Object[] {" B ", "D#D", "###", '#', Block.obsidian, 'B', Item.book, 'D', Item.diamond});
         this.addRecipe(new ItemStack(Block.anvil, 1), new Object[] {"III", " i ", "iii", 'I', Block.blockSteel, 'i', Item.ingotIron});
+        this.addRecipe(new ItemStack(Item.woodGear, 1), new Object[] {" W ", "W W", " W ", 'W', Item.stick});
+        this.addRecipe(new ItemStack(Item.stoneGear, 1), new Object[] {" S ", "SGS", " S ", 'S', Block.cobblestone, 'G', Item.woodGear});
+        this.addRecipe(new ItemStack(Item.ironGear, 1), new Object[] {" I ", "IGI", " I ", 'I', Item.ironIngot, 'G', Item.stoneGear});
         this.addShapelessRecipe(new ItemStack(Item.eyeOfEnder, 1), new Object[] {Item.enderPearl, Item.blazePowder});
         this.addShapelessRecipe(new ItemStack(Item.fireballCharge, 3), new Object[] {Item.gunpowder, Item.blazePowder, Item.coal});
         this.addShapelessRecipe(new ItemStack(Item.fireballCharge, 3), new Object[] {Item.gunpowder, Item.blazePowder, new ItemStack(Item.coal, 1, 1)});
