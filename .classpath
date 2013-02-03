@@ -2,24 +2,24 @@
 <classpath>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Minecraft Modding/MCP/jars/bin/lwjgl_util.jar">
+	<classpathentry kind="lib" path="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/lwjgl_util.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/Minecraft Modding/MCP/jars/bin/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Minecraft Modding/MCP/jars/bin/minecraft.jar">
+	<classpathentry kind="lib" path="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/minecraft.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/Minecraft Modding/MCP/jars/bin/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Minecraft Modding/MCP/jars/bin/jinput.jar">
+	<classpathentry kind="lib" path="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/jinput.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/Minecraft Modding/MCP/jars/bin/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Minecraft Modding/MCP/jars/bin/lwjgl.jar">
+	<classpathentry kind="lib" path="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/Minecraft Modding/MCP/jars/bin/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/SKINUTE DATOTEKE/mcp726a/jars/bin/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path=""/>
