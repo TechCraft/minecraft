@@ -9,7 +9,7 @@ public class Block
      * used as foreach item, if item.tab = current tab, display it on the screen
      */
     private CreativeTabs displayOnCreativeTab;
-    public static final StepSound soundPowderFootstep = new StepSound("stone", 1.0F, 1.0F);
+    .public static final StepSound soundPowderFootstep = new StepSound("stone", 1.0F, 1.0F);
     public static final StepSound soundWoodFootstep = new StepSound("wood", 1.0F, 1.0F);
     public static final StepSound soundGravelFootstep = new StepSound("gravel", 1.0F, 1.0F);
     public static final StepSound soundGrassFootstep = new StepSound("grass", 1.0F, 1.0F);
