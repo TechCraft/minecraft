@@ -38,7 +38,7 @@ public class FurnaceRecipes
         this.addSmelting(Block.oreCoal.blockID, new ItemStack(Item.coal), 0.1F);
         this.addSmelting(Block.oreRedstone.blockID, new ItemStack(Item.redstone), 0.7F);
         this.addSmelting(Block.oreLapis.blockID, new ItemStack(Item.dyePowder, 1, 4), 0.2F);
-        this.addSmelting(Item.ingotIron.itemID, new ItemStack(Item.reinforcedIron, 1.0F);
+        this.addSmelting(Item.ingotIron.itemID, new ItemStack(Item.reinforcedIron), 1.0F);
     }
 
     /**
