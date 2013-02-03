@@ -174,6 +174,14 @@ public class Item
     public static ItemEnchantedBook enchantedBook = (ItemEnchantedBook)(new ItemEnchantedBook(147)).setIconCoord(15, 12).setMaxStackSize(1).setItemName("enchantedBook");
     public static Item copperWire = (new ItemRedstone(148)).setIconCoord(8, 3).setItemName("copperWire");
     public static Item reinforcedIron = (new Item(149)).setIconCoord(9, 2).setItemName("reinforcedIron");
+    public static Item ingotTin = (new Item(150)).setIconCoord(7, 1).setItemName("ingotTin").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotSilver = (new Item(151)).setIconCoord(0, 0).setItemName("ingotSilver").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotCopper = (new Item(152)).setIconCoord(0, 0).setItemName("ingotCopper").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotBronze = (new Item(153)).setIconCoord(0, 0).setItemName("ingotBronze").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotAluminium = (new Item(154)).setIconCoord(0, 0).setItemName("ingotAluminium").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotTitanium = (new Item(155)).setIconCoord(0, 0).setItemName("ingotTitanium").setCreativeTab(CreativeTabs.tabMaterials);
+    
+    
     
     public static Item record13 = (new ItemRecord(2000, "13")).setIconCoord(0, 15).setItemName("record");
     public static Item recordCat = (new ItemRecord(2001, "cat")).setIconCoord(1, 15).setItemName("record");
