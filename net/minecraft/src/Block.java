@@ -210,7 +210,7 @@ public class Block
     public static final Block oreTin = (new BlockOre(150, 172)).setHardness(6.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreTin").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block oreCopper = (new BlockOre(151, 173)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreCopper").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block oreSilver = (new BlockOre(152, 174)).setHardness(7.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreSilver").setCreativeTab(CreativeTabs.tabBlock);
-    public static final Block oreAluminium = (new BlockOre(153, 175)).setHarndess(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreAluminium").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block oreAluminium = (new BlockOre(153, 175)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreAluminium").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block oreTitanium = (new BlockOre(154, 176)).setHardness(8.0F).setStepSound(soundStoneFootstep).setResistance(7.0F).setBlockName("oreTitanium").setCreativeTab(CreativeTabs.tabBlock);
     
     /**

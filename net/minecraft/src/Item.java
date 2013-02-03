@@ -180,6 +180,10 @@ public class Item
     public static Item ingotBronze = (new Item(153)).setIconCoord(0, 0).setItemName("ingotBronze").setCreativeTab(CreativeTabs.tabMaterials);
     public static Item ingotAluminium = (new Item(154)).setIconCoord(0, 0).setItemName("ingotAluminium").setCreativeTab(CreativeTabs.tabMaterials);
     public static Item ingotTitanium = (new Item(155)).setIconCoord(0, 0).setItemName("ingotTitanium").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotRefinedIron = (new Item(156)).setIconCoord(0, 0).setItemName("ingotRefinedIron").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item woodGear = (new Item(157)).setIconCoord(0, 0).setItemName("woodGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item stoneGear = (new Item(157)).setIconCoord(0, 0).setItemName("stoneGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ironGear = (new Item(157)).setIconCoord(0, 0).setItemName("ironGear").setCreativeTab(CreativeTabs.tabMaterials);
     
     
     

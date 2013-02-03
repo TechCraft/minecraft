@@ -38,12 +38,12 @@ public class ElectricFurnaceRecipes
         this.addSmelting(Block.oreCoal.blockID, new ItemStack(Item.coal), 0.1F);
         this.addSmelting(Block.oreRedstone.blockID, new ItemStack(Item.redstone), 0.7F);
         this.addSmelting(Block.oreLapis.blockID, new ItemStack(Item.dyePowder, 1, 4), 0.2F);
-        this.addSmelting(Item.ingotIron.itemID, new ItemStack(Item.reinforcedIron), 1.0F);
+        this.addSmelting(Item.ingotIron.itemID, new ItemStack(Item.ingotRefinedIron), 1.0F);
         this.addSmelting(Block.oreTin.blockID, new ItemStack(Item.ingotTin), 0.8F);
         this.addSmelting(Block.oreCopper.blockID, new ItemStack(Item.ingotCopper), 0.9F);
         this.addSmelting(Block.oreSilver.blockID, new ItemStack(Item.ingotSilver), 0.8F);
         this.addSmelting(Block.oreAluminium.blockID, new ItemStack(Item.ingotAluminium), 0.6F);
-        this.addSmelting(Block.oreTitanium.BlockID, new ItemStack(Item.ingotTitanium), 1.2F);
+        this.addSmelting(Block.oreTitanium.blockID, new ItemStack(Item.ingotTitanium), 1.5F);
     }
 
     /**
