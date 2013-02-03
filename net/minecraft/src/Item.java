@@ -173,6 +173,7 @@ public class Item
     public static Item fireworkCharge = (new ItemFireworkCharge(146)).setIconCoord(10, 12).setItemName("fireworksCharge").setCreativeTab(CreativeTabs.tabMisc);
     public static ItemEnchantedBook enchantedBook = (ItemEnchantedBook)(new ItemEnchantedBook(147)).setIconCoord(15, 12).setMaxStackSize(1).setItemName("enchantedBook");
     public static Item copperWire = (new ItemRedstone(148)).setIconCoord(8, 3).setItemName("copperWire");
+    public static Item reinforcedIron = (new Item(149)).setIconCoord(9, 2).setItemName("reinforcedIron");
     
     public static Item record13 = (new ItemRecord(2000, "13")).setIconCoord(0, 15).setItemName("record");
     public static Item recordCat = (new ItemRecord(2001, "cat")).setIconCoord(1, 15).setItemName("record");
