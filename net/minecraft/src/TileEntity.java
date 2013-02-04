@@ -254,6 +254,7 @@ public class TileEntity
     {
         addMapping(TileEntityFurnace.class, "Furnace");
         addMapping(TileEntityElectricFurnace.class, "ElectricFurnace");
+        addMapping(TileEntityCombiner.class, "Combiner");
         addMapping(TileEntityChest.class, "Chest");
         addMapping(TileEntityEnderChest.class, "EnderChest");
         addMapping(TileEntityRecordPlayer.class, "RecordPlayer");

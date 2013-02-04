@@ -441,11 +441,11 @@ public class BiomeDecorator
         this.genStandardOre1(8, this.redstoneGen, 0, 16);
         this.genStandardOre1(1, this.diamondGen, 0, 16);
         this.genStandardOre1(18, this.rubyGen, 0, 64);
-        this.genStandardOre1(15, this.tinGen, 0, 64);
-        this.genStandardOre1(13, this.copperGen, 0, 64);
-        this.genStandardOre1(14, this.silverGen, 0, 64);
-        this.genStandardOre1(18, this.aluminiumGen, 0, 64);
-        this.genStandardOre1(10, this.titaniumGen, 0, 64);
+        this.genStandardOre1(15, this.tinGen, 0, 50);
+        this.genStandardOre1(13, this.copperGen, 0, 45);
+        this.genStandardOre1(14, this.silverGen, 0, 40);
+        this.genStandardOre1(14, this.aluminiumGen, 0, 35);
+        this.genStandardOre1(10, this.titaniumGen, 0, 25);
         this.genStandardOre2(1, this.lapisGen, 16, 16);
     }
 }

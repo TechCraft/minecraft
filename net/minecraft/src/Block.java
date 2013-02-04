@@ -212,7 +212,9 @@ public class Block
     public static final Block oreSilver = (new BlockOre(152, 174)).setHardness(7.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreSilver").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block oreAluminium = (new BlockOre(153, 175)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreAluminium").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block oreTitanium = (new BlockOre(154, 176)).setHardness(8.0F).setStepSound(soundStoneFootstep).setResistance(7.0F).setBlockName("oreTitanium").setCreativeTab(CreativeTabs.tabBlock);
-    public static void Block
+    public static final Block combinerIdle = (new BlockCombiner(155, false)).setHardness(3.5F).setStepSound(soundStoneFootstep).setBlockName("combienrMachine").setRequiresSelfNotify().setCreativeTab(CreativeTabs.tabDecorations);
+    public static final Block combinerActive = (new BlockCombiner(156, true)).setHardness(3.5F).setStepSound(soundStoneFootstep).setLightValue(0.875F).setBlockName("combinerMachine").setRequiresSelfNotify();
+    
     
     /**
      * The index of the texture to be displayed for this block. May vary based on graphics settings. Mostly seems to

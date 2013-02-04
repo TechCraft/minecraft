@@ -1037,6 +1037,11 @@ public abstract class EntityPlayer extends EntityLiving implements ICommandSende
     public void displayGUIElectricFurnace(TileEntityElectricFurnace par1TileEntityElectricFurnace) {}
     
     /**
+     * Displays the combiner GUI for the passed in combiner entity. Args: tileEntityCombiner
+     */
+    public void displayGUICombiner(TileEntityCombiner par1TileEntityCombiner) {}
+    
+    /**
      * Displays the dipsenser GUI for the passed in dispenser entity. Args: TileEntityDispenser
      */
     public void displayGUIDispenser(TileEntityDispenser par1TileEntityDispenser) {}

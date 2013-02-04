@@ -367,7 +367,16 @@ public class EntityPlayerSP extends EntityPlayer
     {
     	this.mc.displayGuiScreen(new GuiElectricFurnace(this.inventory, par1TileEntityElectricFurnace));
     }
-
+    
+    /**
+     * Displays the combiner GUI for the passed in combiner. Args: tileEntityCombiner
+     */
+    public void displayGUICombiner(TileEntityCombiner par1TileEntityCombiner)
+    {
+    	this.mc.displayGuiScreen(new GuiCombiner(this.inventory, par1TileEntityCombiner));
+    }
+    
+    
     /**
      * Displays the GUI for interacting with a brewing stand.
      */

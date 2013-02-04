@@ -890,7 +890,7 @@ public class NetClientHandler extends NetHandler
                 var2.displayGUIFurnace(new TileEntityFurnace());
                 var2.openContainer.windowId = par1Packet100OpenWindow.windowId;
                 break;
-
+                
             case 3:
                 var2.displayGUIDispenser(new TileEntityDispenser());
                 var2.openContainer.windowId = par1Packet100OpenWindow.windowId;
@@ -919,6 +919,12 @@ public class NetClientHandler extends NetHandler
             case 8:
                 var2.displayGUIAnvil(MathHelper.floor_double(var2.posX), MathHelper.floor_double(var2.posY), MathHelper.floor_double(var2.posZ));
                 var2.openContainer.windowId = par1Packet100OpenWindow.windowId;
+                
+            case 9:
+            	var2.displayGUICombiner(new TileEntityCombiner());
+                var2.openContainer.windowId = par1Packet100OpenWindow.windowId;
+            	break;
+            	
         }
     }
 

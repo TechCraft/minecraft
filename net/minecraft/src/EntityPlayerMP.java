@@ -514,7 +514,20 @@ public class EntityPlayerMP extends EntityPlayer implements ICrafting
     	this.openContainer.windowId = this.currentWindowId;
     	this.openContainer.addCraftingToCrafters(this);
     }
+    
+    /**
+     * Display the combiner GUI for the passed in combiner entity Args : tileEntityCombiner
+     */
+    public void displayGUICombiner(TileEntityCombiner par1TileEnityCombiner)
+    {
+    	this.incrementWindowID();
+    	this.playerNetServerHandler.sendPacketToPlayer(new Packet100OpenWindow(this.currentWindowId, 2, par1TileEnityCombiner.getInvName(), par1TileEnityCombiner.getSizeInventory()));
+    	this.openContainer = new ContainerCombiner(this.inventory, par1TileEnityCombiner);
+    	this.openContainer.windowId = this.currentWindowId;
+    	this.openContainer.addCraftingToCrafters(this);
+    }
 
+    
     /**
      * Displays the dipsenser GUI for the passed in dispenser entity. Args: TileEntityDispenser
      */
