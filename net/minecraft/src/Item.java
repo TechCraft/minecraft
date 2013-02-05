@@ -174,17 +174,21 @@ public class Item
     public static ItemEnchantedBook enchantedBook = (ItemEnchantedBook)(new ItemEnchantedBook(147)).setIconCoord(15, 12).setMaxStackSize(1).setItemName("enchantedBook");
     public static Item copperWire = (new ItemRedstone(148)).setIconCoord(8, 3).setItemName("copperWire");
     public static Item reinforcedIron = (new Item(149)).setIconCoord(9, 2).setItemName("reinforcedIron");
-    public static Item ingotTin = (new Item(150)).setIconCoord(7, 1).setItemName("ingotTin").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ingotSilver = (new Item(151)).setIconCoord(0, 0).setItemName("ingotSilver").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ingotCopper = (new Item(152)).setIconCoord(0, 0).setItemName("ingotCopper").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ingotBronze = (new Item(153)).setIconCoord(0, 0).setItemName("ingotBronze").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ingotAluminium = (new Item(154)).setIconCoord(0, 0).setItemName("ingotAluminium").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ingotTitanium = (new Item(155)).setIconCoord(0, 0).setItemName("ingotTitanium").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ingotRefinedIron = (new Item(156)).setIconCoord(0, 0).setItemName("ingotRefinedIron").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item woodGear = (new Item(157)).setIconCoord(0, 0).setItemName("woodGear").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item stoneGear = (new Item(156)).setIconCoord(0, 0).setItemName("stoneGear").setCreativeTab(CreativeTabs.tabMaterials);
-    public static Item ironGear = (new Item(158)).setIconCoord(0, 0).setItemName("ironGear").setCreativeTab(CreativeTabs.tabMaterials);
-    
+    public static Item ingotTin = (new Item(150)).setIconCoord(1, 9).setItemName("ingotTin").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotSilver = (new Item(151)).setIconCoord(2, 9).setItemName("ingotSilver").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotCopper = (new Item(152)).setIconCoord(3, 9).setItemName("ingotCopper").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotBronze = (new Item(153)).setIconCoord(2, 10).setItemName("ingotBronze").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotAluminium = (new Item(154)).setIconCoord(5, 9).setItemName("ingotAluminium").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotTitanium = (new Item(155)).setIconCoord(4, 9).setItemName("ingotTitanium").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ingotRefinedIron = (new Item(156)).setIconCoord(1, 10).setItemName("ingotRefinedIron").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item woodGear = (new Item(157)).setIconCoord(1, 11).setItemName("woodGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item stoneGear = (new Item(158)).setIconCoord(2, 11).setItemName("stoneGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item ironGear = (new Item(159)).setIconCoord(3, 11).setItemName("ironGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item goldGear = (new Item(160)).setIconCoord(4, 11).setItemName("goldGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item redstonGear = (new Item(161)).setIconCoord(5, 11).setItemName("redstoneGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item diamondGear = (new Item(162)).setIconCoord(6,11).setItemName("diamondGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item bronzeGear = (new Item(163)).setIconCoord(7,11).setItemName("bronzeGear").setCreativeTab(CreativeTabs.tabMaterials);
+    public static Item titaniumGear = (new Item(167)).setIconCoord(8, 11).setItemName("titaniumGear").setCreativeTab(CreativeTabs.tabMaterials);
     
     
     public static Item record13 = (new ItemRecord(2000, "13")).setIconCoord(0, 15).setItemName("record");

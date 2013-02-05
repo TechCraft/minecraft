@@ -203,17 +203,15 @@ public class Block
     public static final Block woodenButton = (new BlockButton(143, planks.blockIndexInTexture, true)).setHardness(0.5F).setStepSound(soundWoodFootstep).setBlockName("button").setRequiresSelfNotify();
     public static final Block skull = (new BlockSkull(144)).setHardness(1.0F).setStepSound(soundStoneFootstep).setBlockName("skull").setRequiresSelfNotify();
     public static final Block anvil = (new BlockAnvil(145)).setHardness(5.0F).setStepSound(soundAnvilFootstep).setResistance(2000.0F).setBlockName("anvil").setRequiresSelfNotify();
-    public static final Block electricOvenIdle = (new BlockElectricFurnace(146, false)).setHardness(3.5F).setStepSound(soundStoneFootstep).setBlockName("electricFurnace").setRequiresSelfNotify().setCreativeTab(CreativeTabs.tabDecorations);
-    public static final Block electricOvenActive = (new BlockElectricFurnace(147, true)).setHardness(3.5F).setStepSound(soundStoneFootstep).setLightValue(0.875F).setBlockName("electricFurnace").setRequiresSelfNotify();
-    public static final Block oreRuby = (new BlockOre(148, 171)).setHardness(5.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreRuby").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block oreRuby = (new BlockOre(167, 217)).setHardness(5.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreRuby").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block copperWire = (new BlockCopperWire(149, 164)).setHardness(0.0F).setStepSound(soundPowderFootstep).setBlockName("copperWire").disableStats().setRequiresSelfNotify();
-    public static final Block oreTin = (new BlockOre(150, 172)).setHardness(6.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreTin").setCreativeTab(CreativeTabs.tabBlock);
-    public static final Block oreCopper = (new BlockOre(151, 173)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreCopper").setCreativeTab(CreativeTabs.tabBlock);
-    public static final Block oreSilver = (new BlockOre(152, 174)).setHardness(7.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreSilver").setCreativeTab(CreativeTabs.tabBlock);
-    public static final Block oreAluminium = (new BlockOre(153, 175)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreAluminium").setCreativeTab(CreativeTabs.tabBlock);
-    public static final Block oreTitanium = (new BlockOre(154, 176)).setHardness(8.0F).setStepSound(soundStoneFootstep).setResistance(7.0F).setBlockName("oreTitanium").setCreativeTab(CreativeTabs.tabBlock);
-    public static final Block combinerIdle = (new BlockCombiner(155, false)).setHardness(3.5F).setStepSound(soundStoneFootstep).setBlockName("combienrMachine").setRequiresSelfNotify().setCreativeTab(CreativeTabs.tabDecorations);
-    public static final Block combinerActive = (new BlockCombiner(156, true)).setHardness(3.5F).setStepSound(soundStoneFootstep).setLightValue(0.875F).setBlockName("combinerMachine").setRequiresSelfNotify();
+    public static final Block oreTin = (new BlockOre(163, 188)).setHardness(6.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreTin").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block oreCopper = (new BlockOre(162, 187)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreCopper").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block oreSilver = (new BlockOre(164, 189)).setHardness(7.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreSilver").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block oreAluminium = (new BlockOre(165, 190)).setHardness(6.5F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreAluminium").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block oreTitanium = (new BlockOre(166, 191)).setHardness(8.0F).setStepSound(soundStoneFootstep).setResistance(7.0F).setBlockName("oreTitanium").setCreativeTab(CreativeTabs.tabBlock);
+    public static final Block combinerIdle = (new BlockCombiner(223, false)).setHardness(3.5F).setStepSound(soundStoneFootstep).setBlockName("combienrMachine").setRequiresSelfNotify().setCreativeTab(CreativeTabs.tabDecorations);
+    public static final Block combinerActive = (new BlockCombiner(207, true)).setHardness(3.5F).setStepSound(soundStoneFootstep).setLightValue(0.875F).setBlockName("combinerMachine").setRequiresSelfNotify();
     
     
     /**

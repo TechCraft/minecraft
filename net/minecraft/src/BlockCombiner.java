@@ -22,7 +22,7 @@ public class BlockCombiner extends BlockContainer
     {
         super(par1, Material.rock);
         this.isActive = par2;
-        this.blockIndexInTexture = 45;
+        this.blockIndexInTexture = 219;
     }
 
     /**
@@ -86,11 +86,11 @@ public class BlockCombiner extends BlockContainer
     {
         if (par5 == 1)
         {
-            return this.blockIndexInTexture + 17;
+            return this.blockIndexInTexture + 271;
         }
         else if (par5 == 0)
         {
-            return this.blockIndexInTexture + 17;
+            return this.blockIndexInTexture + 273;
         }
         else
         {
@@ -141,7 +141,7 @@ public class BlockCombiner extends BlockContainer
      */
     public int getBlockTextureFromSide(int par1)
     {
-        return par1 == 1 ? this.blockIndexInTexture + 17 : (par1 == 0 ? this.blockIndexInTexture + 17 : (par1 == 3 ? this.blockIndexInTexture - 1 : this.blockIndexInTexture));
+        return par1 == 1 ? this.blockIndexInTexture + 236 : (par1 == 0 ? this.blockIndexInTexture + 235 : (par1 == 3 ? this.blockIndexInTexture - 1 : this.blockIndexInTexture));
     }
 
     /**
