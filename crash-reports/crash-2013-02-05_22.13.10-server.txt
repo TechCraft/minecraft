@@ -1,0 +1,98 @@
+---- Minecraft Crash Report ----
+// Oops.
+
+Time: 05.02.13. 22:13
+Description: Exception getting block type in world
+
+java.lang.NullPointerException
+	at net.minecraft.src.BiomeDecorator.genStandardOre1(BiomeDecorator.java:413)
+	at net.minecraft.src.BiomeDecorator.generateOres(BiomeDecorator.java:447)
+	at net.minecraft.src.BiomeDecorator.decorate(BiomeDecorator.java:217)
+	at net.minecraft.src.BiomeDecorator.decorate(BiomeDecorator.java:206)
+	at net.minecraft.src.BiomeGenBase.decorate(BiomeGenBase.java:333)
+	at net.minecraft.src.ChunkProviderGenerate.populate(ChunkProviderGenerate.java:522)
+	at net.minecraft.src.ChunkProviderServer.populate(ChunkProviderServer.java:233)
+	at net.minecraft.src.Chunk.populateChunk(Chunk.java:1122)
+	at net.minecraft.src.ChunkProviderServer.loadChunk(ChunkProviderServer.java:128)
+	at net.minecraft.src.ChunkProviderServer.provideChunk(ChunkProviderServer.java:141)
+	at net.minecraft.src.World.getChunkFromChunkCoords(World.java:430)
+	at net.minecraft.src.World.getBlockId(World.java:312)
+	at net.minecraft.src.World.isAirBlock(World.java:341)
+	at net.minecraft.src.World.getFirstUncoveredBlock(World.java:283)
+	at net.minecraft.src.WorldProvider.canCoordinateBeSpawn(WorldProvider.java:87)
+	at net.minecraft.src.WorldServer.createSpawnPosition(WorldServer.java:685)
+	at net.minecraft.src.WorldServer.initialize(WorldServer.java:649)
+	at net.minecraft.src.World.<init>(World.java:219)
+	at net.minecraft.src.WorldServer.<init>(WorldServer.java:48)
+	at net.minecraft.src.IntegratedServer.loadAllWorlds(IntegratedServer.java:72)
+	at net.minecraft.src.IntegratedServer.startServer(IntegratedServer.java:101)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:465)
+	at net.minecraft.src.ThreadMinecraftServer.run(ThreadMinecraftServer.java:18)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.src.BiomeDecorator.genStandardOre1(BiomeDecorator.java:413)
+	at net.minecraft.src.BiomeDecorator.generateOres(BiomeDecorator.java:447)
+	at net.minecraft.src.BiomeDecorator.decorate(BiomeDecorator.java:217)
+	at net.minecraft.src.BiomeDecorator.decorate(BiomeDecorator.java:206)
+	at net.minecraft.src.BiomeGenBase.decorate(BiomeGenBase.java:333)
+	at net.minecraft.src.ChunkProviderGenerate.populate(ChunkProviderGenerate.java:522)
+	at net.minecraft.src.ChunkProviderServer.populate(ChunkProviderServer.java:233)
+	at net.minecraft.src.Chunk.populateChunk(Chunk.java:1122)
+	at net.minecraft.src.ChunkProviderServer.loadChunk(ChunkProviderServer.java:128)
+	at net.minecraft.src.ChunkProviderServer.provideChunk(ChunkProviderServer.java:141)
+	at net.minecraft.src.World.getChunkFromChunkCoords(World.java:430)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (-255,64,101), Chunk: (at 1,4,5 in -16,6; contains blocks -256,0,96 to -241,255,111), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+Stacktrace:
+	at net.minecraft.src.World.getBlockId(World.java:312)
+	at net.minecraft.src.World.isAirBlock(World.java:341)
+	at net.minecraft.src.World.getFirstUncoveredBlock(World.java:283)
+	at net.minecraft.src.WorldProvider.canCoordinateBeSpawn(WorldProvider.java:87)
+	at net.minecraft.src.WorldServer.createSpawnPosition(WorldServer.java:685)
+	at net.minecraft.src.WorldServer.initialize(WorldServer.java:649)
+
+-- Affected level --
+Details:
+	Level name: TES
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 6 Drop: 0
+	Level seed: 4862726686677020620
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 0 game time, 0 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.src.World.<init>(World.java:219)
+	at net.minecraft.src.WorldServer.<init>(WorldServer.java:48)
+	at net.minecraft.src.IntegratedServer.loadAllWorlds(IntegratedServer.java:72)
+	at net.minecraft.src.IntegratedServer.startServer(IntegratedServer.java:101)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:465)
+	at net.minecraft.src.ThreadMinecraftServer.run(ThreadMinecraftServer.java:18)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.4.7
+	Operating System: Windows XP (x86) version 5.1
+	Java Version: 1.7.0_09, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 21859352 bytes (20 MB) / 64012288 bytes (61 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: Start[net.minecraft.src.IPlayerUsage, ISaveFormat, IStatStringFormat, ...]
+	IntCache: cache: 2, tcache: 0, allocated: 1, tallocated: 63
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated
