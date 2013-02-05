@@ -10,8 +10,7 @@ public class RecipesCrafting
         par1CraftingManager.addRecipe(new ItemStack(Block.chest), new Object[] {"###", "# #", "###", '#', Block.planks});
         par1CraftingManager.addRecipe(new ItemStack(Block.enderChest), new Object[] {"###", "#E#", "###", '#', Block.obsidian, 'E', Item.eyeOfEnder});
         par1CraftingManager.addRecipe(new ItemStack(Block.stoneOvenIdle), new Object[] {"###", "# #", "###", '#', Block.cobblestone});
-        par1CraftingManager.addRecipe(new ItemStack(Block.electricOvenIdle), new Object[] {"###", "# #", "###", '#', Block.cobblestoneMossy});
-        par1CraftingManager.addRecipe(new ItemStack(Block.combinerIdle), new Object[] {"IPI", "CGC", "CRC", 'I', Block.blockSteel, 'P', Block.pistonBase, 'C', Block.cobblestone, 'G', Item.ironGear, 'R', Item.redstone});
+        par1CraftingManager.addRecipe(new ItemStack(Block.combinerIdle), new Object[] {"IPI", "CGC", "CRC", 'I', Item.ingotIron, 'P', Block.pistonBase, 'C', Block.cobblestone, 'G', Item.bronzeGear, 'R', Item.redstone});
         par1CraftingManager.addRecipe(new ItemStack(Block.workbench), new Object[] {"##", "##", '#', Block.planks});
         par1CraftingManager.addRecipe(new ItemStack(Block.sandStone), new Object[] {"##", "##", '#', Block.sand});
         par1CraftingManager.addRecipe(new ItemStack(Block.sandStone, 4, 2), new Object[] {"##", "##", '#', Block.sandStone});
