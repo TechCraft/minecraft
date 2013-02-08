@@ -26,6 +26,13 @@ public class RecipesExchangeStone {
 		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.cobblestone), new Object[] {Item.exchangeStone, Block.dirt});
 		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.grass), new Object[] {Item.exchangeStone, Block.cobblestone});
 		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.sand), new Object[] {Item.exchangeStone, Block.grass});
-		
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.plantRed), new Object[] {Item.exchangeStone, Block.plantYellow});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.plantYellow), new Object[] {Item.exchangeStone, Block.plantRed});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.mushroomRed), new Object[] {Item.exchangeStone, Block.mushroomBrown});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.mushroomBrown), new Object[] {Item.exchangeStone, Block.mushroomRed});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Item.pumpkinSeeds), new Object[] {Item.exchangeStone, Item.melonSeeds});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Item.melonSeeds), new Object[] {Item.exchangeStone, Item.pumpkinSeeds});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.pumpkin), new Object[] {Item.exchangeStone, Block.melon});
+		par1CraftingManager.addShapelessRecipe(new ItemStack(Block.melon), new Object[] {Item.exchangeStone, Block.pumpkin});
 	}
 }
