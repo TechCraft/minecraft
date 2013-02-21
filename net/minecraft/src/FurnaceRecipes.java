@@ -44,6 +44,7 @@ public class FurnaceRecipes
         this.addSmelting(Block.oreSilver.blockID, new ItemStack(Item.ingotSilver), 0.8F);
         this.addSmelting(Block.oreAluminium.blockID, new ItemStack(Item.ingotAluminium), 0.6F);
         this.addSmelting(Block.oreTitanium.blockID, new ItemStack(Item.ingotTitanium), 1.2F);
+        this.addSmelting(Block.oreRedCrystal.blockID, new ItemStack(Item.redCrystal), 1.2F);
     }
 
     /**
