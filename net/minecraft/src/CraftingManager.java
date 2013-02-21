@@ -129,6 +129,7 @@ public class CraftingManager
         this.addRecipe(new ItemStack(Item.stoneGear, 1), new Object[] {" S ", "SGS", " S ", 'S', Block.cobblestone, 'G', Item.woodGear});
         this.addRecipe(new ItemStack(Item.ironGear, 1), new Object[] {" I ", "IGI", " I ", 'I', Item.ingotIron, 'G', Item.stoneGear});
         this.addRecipe(new ItemStack(Item.exchangeStone, 1), new Object[] {"ILI", "RGR", "ILI", 'I', Item.ingotIron, 'L', ItemDye.dyePowder, 'R', Item.redstone, 'G', Block.blockGold});
+        this.addRecipe(new ItemStack(Item.wand, 1), new Object[] {"  R", " S ", "B", 'R', Item.redCrystal, 'S', Item.stick, 'R', Item.magicBattery});
         this.addShapelessRecipe(new ItemStack(Item.eyeOfEnder, 1), new Object[] {Item.enderPearl, Item.blazePowder});
         this.addShapelessRecipe(new ItemStack(Item.fireballCharge, 3), new Object[] {Item.gunpowder, Item.blazePowder, Item.coal});
         this.addShapelessRecipe(new ItemStack(Item.fireballCharge, 3), new Object[] {Item.gunpowder, Item.blazePowder, new ItemStack(Item.coal, 1, 1)});
