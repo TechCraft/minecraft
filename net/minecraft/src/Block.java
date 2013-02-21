@@ -212,6 +212,7 @@ public class Block
     public static final Block oreTitanium = (new BlockOre(166, 191)).setHardness(8.0F).setStepSound(soundStoneFootstep).setResistance(7.0F).setBlockName("oreTitanium").setCreativeTab(CreativeTabs.tabBlock);
     public static final Block combinerIdle = (new BlockCombiner(223, false)).setHardness(3.5F).setStepSound(soundStoneFootstep).setBlockName("combienrMachine").setRequiresSelfNotify().setCreativeTab(CreativeTabs.tabDecorations);
     public static final Block combinerActive = (new BlockCombiner(207, true)).setHardness(3.5F).setStepSound(soundStoneFootstep).setLightValue(0.875F).setBlockName("combinerMachine").setRequiresSelfNotify();
+    public static final Block oreRedCrystal = (new BlockOre(208, 190)).setHardness(6.0F).setStepSound(soundStoneFootstep).setResistance(5.0F).setBlockName("oreRedCrystal").setCreativeTab(CreativeTabs.tabBlock);
     
     
     /**
