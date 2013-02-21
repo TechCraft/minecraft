@@ -191,6 +191,7 @@ public class Item
     public static Item titaniumGear = (new Item(167)).setIconCoord(8, 11).setItemName("titaniumGear").setCreativeTab(CreativeTabs.tabMaterials);
     public static Item blueIngot = (new Item(168)).setIconCoord(1, 10).setItemName("ingotBlue").setCreativeTab(CreativeTabs.tabMaterials);
     public static Item exchangeStone = (new Item(169)).setIconCoord(2, 10).setItemName("exchangeStone").setCreativeTab(CreativeTabs.tabMisc);
+    public static Item redCrystal = (new Item(170)).setIconCoord(2, 10).setItemName("redCrystal").setCreativeTab(CreativeTabs.tabMaterials);
     public static Item record13 = (new ItemRecord(2000, "13")).setIconCoord(0, 15).setItemName("record");
     public static Item recordCat = (new ItemRecord(2001, "cat")).setIconCoord(1, 15).setItemName("record");
     public static Item recordBlocks = (new ItemRecord(2002, "blocks")).setIconCoord(2, 15).setItemName("record");
